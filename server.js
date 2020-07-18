@@ -18,7 +18,7 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.set('useCreateIndex', true)
-mongoose.connect(process.env.MONGODB_URI || "mongodb://healthapp:Group1project@ds221416.mlab.com:21416/heroku_hbthvrcx", { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(process.env.MONGODB_URI || "mongodb://practice1:deepplane1@ds053774.mlab.com:53774/heroku_r0whzd39", { useNewUrlParser: true, useUnifiedTopology: true });
 app.listen(PORT, function() {
   console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
 
